@@ -9,12 +9,12 @@ background-color: #e6f975;
 
 
     background-image: 
-        radial-gradient(circle, #e6f975 30%, transparent 70%),
-        radial-gradient(#bfd24d 15%, transparent 16%);
-
+ 
+        radial-gradient(circle, #e6f975 45%, transparent 70%),
+        radial-gradient(#3842d191 15%, transparent 16%);
   
     background-size: 
-        120% 120%,
+        100% 100%,
         16px 16px; 
 
 
@@ -40,6 +40,7 @@ Font-style: normal;
 
 font-size: 54px;
 text-align: center;
+color: #004b23;
 }
 h2{
 font-family: "Gravitas One", serif;
@@ -50,6 +51,7 @@ font-size: 49px;
 text-align: center;
 
 margin-top: 82px;
+color: #004b23;
 }
 p{
 font-family: "Montserrat", sans-serif;
@@ -57,7 +59,7 @@ font-optical-sizing: auto;
 font-weight: weight;
 font-style: normal;
 
-font-size: 20px;
+font-size: 15px;
 }
 
 a{
@@ -73,7 +75,7 @@ color: rgb(11, 206, 11);
 }
 
 .fotoconvocados{
-    width: 500px;
+    width: 350px;
     border: solid #004b23;
 }
 
@@ -87,7 +89,7 @@ color: rgb(11, 206, 11);
 }
 
 .fotojogador{
-    width: 220px;
+    width: 190px;
 }
 
 .card{
@@ -95,7 +97,7 @@ color: rgb(11, 206, 11);
    
     text-align: center;
     display: inline-block;
-    width: 250px;
+    width: 215px;
     padding-top: 8px;
 
     border-left:solid #1cb80e 8px ;
