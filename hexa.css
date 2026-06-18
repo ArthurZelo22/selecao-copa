@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+
+h1{
+    font-family: "Gravitas One", serif;
+font-weight: 400;
+Font-style: normal;
+}
