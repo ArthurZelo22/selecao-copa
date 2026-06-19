@@ -13,6 +13,7 @@ body{
     16px 16px;
     background-repeat:repeat;
 }
+
 header{
     background-color: #e6f975;
 }
@@ -22,8 +23,6 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    justify-content: space-between;
     gap: 30px;
 
     max-width: 1600px;
@@ -36,22 +35,15 @@ header{
 
     text-align: justify;
 }
-#imagem-resumo{
 
-    justify-content: center;
+#texto-resumo h2{
+    font-size: 55px;
 }
+
 #imagem-resumo img{
     width: 500px;
     height: auto;
 }
-
-
-
-
-img{
-    width: 300px;
-}
-
 
 
 h1{
@@ -60,14 +52,14 @@ h1{
     Font-style: normal;
     text-align: center;
     
-    font-size: 70px;
+    font-size: 80px;
    
     color: #004b23;
     padding-top: 53px;
     margin-top: 14px;
 }
 h2{
-font-size: 55px;
+font-size: 95px;
 
 color: #004b23 ;
 }
@@ -80,6 +72,73 @@ font-style: normal;
 
 font-size: 18px;
 }
+#primeiracopa{ text-align: left;}
+#segundacopa{text-align: right;}
+#terceiracopa{text-align: left;}
+#quartacopa{text-align: right;}
+#quintacopa{text-align: left;}
+
+.esquerda{
+    background-color: #e6f975;
+    border-right: 6px solid #004b23;
+    border-bottom: 6px solid #004b23;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+    width: 70%; 
+    max-width: 1500px;
+
+    margin-right: auto;
+    padding: 20px;
+    text-align: justify;
+}
+
+.direita{
+    background-color: #e6f975;
+    border-left: 6px solid #004b23;
+    border-bottom: 6px solid #004b23;
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    width: 70%; 
+    max-width: 1500px;
+
+    margin-left: auto;
+    padding: 20px;
+    text-align: justify;
+}
+.esquerda p, .direita p{
+    font-size: 25px;
+}
+.esquerda img, .direita img {
+    width: 500px;
+    height: auto;
+}
+
+#sonhohexa div{
+    background-color: #e6f975;
+    margin: auto;
+
+    max-width: 1200px;
+
+    padding: 20px;
+}
+#sonhohexa h2{
+    text-align: center;
+}
+#sonhohexa div{
+    margin-bottom: 40px;
+}
+
+h2{
+    margin-bottom: 10px;
+}
 
 @media (min-width: 925px ){
     #resumo-museu{
@@ -87,4 +146,9 @@ font-size: 18px;
         flex-direction: row;
     }
 }
-
+@media (min-width:1350px ){
+    .direita, .esquerda{
+        display: flex;
+        flex-direction: row;
+    }
+}
