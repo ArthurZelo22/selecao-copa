@@ -1,9 +1,90 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    background-color: rgb(255, 255, 255);
+
+    background-image:
+    radial-gradient(#3842d160 15%, transparent 16%);
+    background-size:
+    16px 16px;
+    background-repeat:repeat;
+}
+header{
+    background-color: #e6f975;
+}
+
+#resumo-museu{
+    border-top: solid #004b23;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: space-between;
+    gap: 30px;
+
+    max-width: 1600px;
+
+    margin: auto;
+    padding: 20px;
+
+}
+#texto-resumo{
+
+    text-align: justify;
+}
+#imagem-resumo{
+
+    justify-content: center;
+}
+#imagem-resumo img{
+    width: 500px;
+    height: auto;
+}
+
+
+
+
+img{
+    width: 300px;
+}
+
+
 
 h1{
     font-family: "Gravitas One", serif;
-font-weight: 400;
-Font-style: normal;
+    font-weight: 400;
+    Font-style: normal;
+    text-align: center;
+    
+    font-size: 70px;
+   
+    color: #004b23;
+    padding-top: 53px;
+    margin-top: 14px;
 }
+h2{
+font-size: 55px;
+
+color: #004b23 ;
+}
+
+p{
+font-family: "Montserrat", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+
+font-size: 18px;
+}
+
+@media (min-width: 925px ){
+    #resumo-museu{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
