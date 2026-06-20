@@ -5,10 +5,10 @@
 
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: #effaaf;
 
     background-image:
-    radial-gradient(#3842d160 15%, transparent 16%);
+    radial-gradient(#313cd898 15%, transparent 16%);
     background-size:
     16px 16px;
     background-repeat:repeat;
@@ -32,7 +32,6 @@ header{
 
 }
 #texto-resumo{
-
     text-align: justify;
 }
 
