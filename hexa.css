@@ -51,17 +51,36 @@ h1{
     Font-style: normal;
     text-align: center;
     
-    font-size: 80px;
+    font-size: 60px;
    
     color: #004b23;
     padding-top: 53px;
     margin-top: 14px;
 }
 h2{
-font-size: 95px;
+font-size: 70px;
 
 color: #004b23 ;
+margin-bottom: 10px;
 }
+h3{
+font-family: "Gravitas One", serif;
+font-weight: 400;
+Font-style: normal;
+font-size: 25px;
+margin-top: 60px;
+color: #004b23;
+border: solid #004b23 2px;
+
+}
+#museu{
+width: fit-content;
+margin: auto;
+}
+a{
+text-decoration: none;
+}
+
 
 p{
 font-family: "Montserrat", sans-serif;
@@ -113,10 +132,10 @@ font-size: 18px;
     text-align: justify;
 }
 .esquerda p, .direita p{
-    font-size: 25px;
+    font-size: 20px;
 }
 .esquerda img, .direita img {
-    width: 500px;
+    width: 450px;
     height: auto;
 }
 
@@ -135,8 +154,8 @@ font-size: 18px;
     margin-bottom: 40px;
 }
 
-h2{
-    margin-bottom: 10px;
+img{
+    border: 3px solid #004b23;
 }
 
 @media (min-width: 925px ){
@@ -149,5 +168,71 @@ h2{
     .direita, .esquerda{
         display: flex;
         flex-direction: row;
+    }
+}
+
+#rodape-cbf {
+    background-color: #002776;
+    color: #ffffff;
+    padding: 20px 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border-top: 4px solid #1cb80e;
+    margin-top: 100px;
+    
+}
+
+.conteudo-rodape {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#direitos {
+    margin: 0;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.redes-sociais span {
+    font-weight: bold;
+    color: #FFDC00;
+}
+
+
+.redes-sociais ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.redes-sociais a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.redes-sociais a:hover {
+    color: #FFDC00;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    .conteudo-rodape {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .redes-sociais {
+        flex-direction: row;
+        gap: 10px;
     }
 }

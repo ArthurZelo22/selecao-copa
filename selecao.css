@@ -53,6 +53,21 @@ text-align: center;
 margin-top: 82px;
 color: #004b23;
 }
+h3{
+font-family: "Gravitas One", serif;
+font-weight: 400;
+Font-style: normal;
+font-size: 25px;
+margin-top: 60px;
+color: #004b23;
+border: solid #004b23 2px;
+
+}
+#museu{
+width: fit-content;
+margin: auto;
+}
+
 p{
 font-family: "Montserrat", sans-serif;
 font-optical-sizing: auto;
@@ -67,10 +82,10 @@ color: green;
 transition: 0.5s;
 text-decoration: none;
 }
-a:hover{
+header a:hover{
 color: rgb(211, 226, 1);
 }
-a:active{
+header a:active{
 color: rgb(11, 206, 11);
 }
 
@@ -117,7 +132,7 @@ color: rgb(11, 206, 11);
     gap: 30px;
 }
 .videojogos{
-    width: 350px;
+    width: 370px;
     height: 250px;
     border: 4px solid #1cb80e;
 }
@@ -196,7 +211,7 @@ color: rgb(11, 206, 11);
     border-left: 8px solid #1cb80e;
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
     
-    max-width: 450px;
+    max-width: 1000px;
 }
 
 #formulario label {
